@@ -12,6 +12,8 @@ class Car
   end 
   
   def self.count 
+    @@car_acount 
+  end 
 end 
 
 toyota = Car.new("camry","Toyota", "1998")
