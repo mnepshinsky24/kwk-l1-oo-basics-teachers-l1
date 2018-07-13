@@ -12,7 +12,7 @@ class Car
   end 
   
   def self.count 
-    @@car_acount 
+    @@car_count 
   end 
 end 
 
