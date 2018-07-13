@@ -10,6 +10,8 @@ class Car
     @year = year 
     @@car_count += 1 
   end 
+  
+  def self.count 
 end 
 
 toyota = Car.new("camry","Toyota", "1998")
