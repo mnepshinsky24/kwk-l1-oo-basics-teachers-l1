@@ -1,5 +1,5 @@
 class Car 
-  
+  attr_reader :model , :make , :year 
   def initialize(model, make, year)
     @model = model 
     @make = make 
