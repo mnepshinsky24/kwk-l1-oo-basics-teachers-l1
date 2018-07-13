@@ -7,7 +7,6 @@ class Car
     @make = make 
     @year = year 
   end 
-  
 end 
 
 toyota = Car.new("camry","Toyota", "1998")
