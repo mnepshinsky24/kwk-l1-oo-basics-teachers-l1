@@ -8,14 +8,6 @@ class Car
     @year = year 
   end 
   
-  def heating=(heating)
-    @heating=heating 
-  end
-  
-  def heating
-    @heating 
-  end 
-  
 end 
 
 toyota = Car.new("camry","Toyota", "1998")
