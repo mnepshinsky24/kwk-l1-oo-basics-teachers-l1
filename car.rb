@@ -8,6 +8,7 @@ class Car
     @model = model 
     @make = make 
     @year = year 
+    @@car_count += 1 
   end 
 end 
 
